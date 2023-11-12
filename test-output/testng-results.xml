@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-31T19:28:12 ICT" name="Default suite" finished-at="2023-10-31T19:28:34 ICT" duration-ms="21717">
+    <groups>
+    </groups>
+    <test started-at="2023-10-31T19:28:12 ICT" name="Default test" finished-at="2023-10-31T19:28:34 ICT" duration-ms="21717">
+      <class name="test.FormPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.FormPageTest@5bf0d49]" started-at="2023-10-31T19:28:12 ICT" name="setUp" finished-at="2023-10-31T19:28:23 ICT" duration-ms="10701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.FormPageTest@5bf0d49]" started-at="2023-10-31T19:28:23 ICT" name="testFormPage" data-provider="DataFromJsonFile" finished-at="2023-10-31T19:28:34 ICT" duration-ms="10507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thống]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nguyễn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[thong0307@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0389014185]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[13 Jan 2001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Subjects]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.FormPageTest@5bf0d49]" started-at="2023-10-31T19:28:34 ICT" name="tearDown" finished-at="2023-10-31T19:28:34 ICT" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.FormPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
